@@ -1,0 +1,90 @@
+body {
+  font-family: 'roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ddd7d7;
+}
+
+nav ul{
+display: flex;
+gap: 20px;
+list-style: none;
+padding:0;
+margin: 0;
+background-color: rgb(6, 95, 230);
+
+}
+nav ul li{
+  display: inline;
+  margin-right: 20px;
+}
+.Aboutme {
+  background-color: rgb(6, 95, 230);
+  color: white ;
+  width: 1800px;         
+  padding: 20px;          
+  border: 1px solid black; 
+  margin: 20px auto;      
+  border-radius: 10px;    
+}
+.title{
+  margin: 30px;
+}
+.title2{
+  margin: 30px;
+}
+.work{
+  background-color: rgb(6, 95, 230);
+  color: white ;
+  width: 1800px;         
+  padding: 20px;          
+  border: 1px solid black; 
+  margin: 20px auto;      
+  border-radius: 10px;
+}
+.resume{
+margin: 30px;}
+.contact{
+margin: 30px;}
+.footer{
+  background-color: rgb(6, 95, 230);
+  color: white
+}
+.profile-photo {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.aboutme-box {
+  display: flex;
+  align-items: flex-start;
+  background-color: #0066f5;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  gap: 20px;
+  width: 1800px;
+  margin: 0 auto 40px auto;
+}
